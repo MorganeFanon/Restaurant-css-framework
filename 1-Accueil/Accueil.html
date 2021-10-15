@@ -1,24 +1,4 @@
-<!-- 
-m - for classes that set margin around the elements.
 
-t - for classes that set margin-top
-b - for classes that set margin-bottom
-l - for classes that set margin-left
-r- for classes that set margin-right
-x - for classes that set both *-left and *-right
-y- for classes that set margin to both *-top and *-bottom
-blank - for classes that set margin to all four sides. 
-Where size is one of:
-
-0 - It eliminates margin by setting it to 0.
-1 - It set margin to $spacer *.25
-2 - It set margin to $spacer *.5
-3 - It set margin to $spacer * 1
-4 - It set margin to $spacer *1.5
-5 - It set margin to $spacer *3
-auto - It sets the margin to auto
-
- -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,14 +13,14 @@ auto - It sets the margin to auto
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-md  bg-light navbar-light">
-            <a class="navbar-brand Sixties" href="Restaurant.html">The Sixties</a>
+ <nav class="navbar navbar-expand-lg  bg-light navbar-light">
+            <a class="navbar-brand Sixties mx-auto" href="Restaurant.html">The Sixties</a>
 
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!--    <a class="navbar-brand navbar-left" href="#"><img src="Cadillac-PNG-File.png" height="80"></a> -->
+            <a class="navbar-brand navbar-left" href="#"><img src="Cadillac-PNG-File.png" height="80"></a>
 
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
@@ -67,53 +47,108 @@ auto - It sets the margin to auto
                 </ul>
             </div>
         </nav>
-
-<div class="container-fluid">
-      <div class="row">
-        <div class="col">
-              <div class="jumbotron text-center">
-              <p><i>Non de Zeus vous voilà enfin! Juste à l'heure pour vous laissez embarquer pour un voyage dans
-                le temps.
-                Nous voici de retour à une des plus belle époques, les 60's !</i></p>
-                </div> 
-        </div>          
-      </div>
     
-       <div class="row"> 
-        <div class="col justify-content-start d-flex-">
-           <div class="card bg-dark text-white "> 
-               <div class="card-body">
-               <p class="card-title">Nouveau burger du mois, le Marty mac Fly !</p>
-               <img src="pexels-valeria-boltneva-1893557.jpg" class="card-img-bottom img-fluid"><a href="#" class="btn btn-primary">COMMANDER</a>
-               </div>
-           </div>
-       </div>
-    </div>
+<div class="container-fluid pt-5">
+    <div class="row align-items-start ">
+        <div class="col-lg-2 col-md-1 col-sm-2">
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-8">
+              <div class="jumbotron-fluid text-center ">
+                 <h2><i>Non de Zeus vous voilà enfin! Juste à l'heure pour vous laissez embarquer pour un voyage dans
+                le temps.
+                Nous voici de retour à une des plus belle époques, les 60's !</i></h2>
+              </div> 
+        </div> 
 
-  <div class="row">    
-    <div class="col justify-content-end d-flex">
+        <div class="col-lg-4 col-md-3 col-sm-2">
+        </div>
+     </div>
+
+</div>
+
+<div class="container-fluid pt-5">
+       <div class="row">  
+            <div class="col-lg-1 col-md-3 col-sm-1"></div>
+            <div class="col-lg-5 col-md-6 col-sm-10">
+                   <div class="card bg-dark text-white"> 
+                   <div class="card-body">
+                    <p class="card-title"><h5>Chaque mois nous créons un nouvel hamburger rien que pour vous. Ce moi-ci nous vous présentons le JFK !</h5>
+                    <img src="pexels-valeria-boltneva-1893557.jpg" class="card-img-bottom img-fluid pb-2"><a href="#" class="btn btn-primary ">COMMANDER</a>
+                   </div>
+           </div>
+           <div class="col-lg-6 col-md-3 col-sm-1"></div>
+       </div>
+</div>
+</div>
+  
+  
+
+  <div class="container-fluid pt-5 pb-5">
+    <div class="row align-items-end">    
+     <div class="col-lg-6 col-md-3 col-sm-1"></div>
+        <div class="col-lg-5 col-md-6 col-sm-10 align-items-end">
         <div class="card bg-dark text-white">
             <div class="card-body">
-            <p class="card-title">Nous sommes ouvert à nouveau, réservez ici votre table </p>
-            <img src="pexels-cottonbro-4253297.jpg" class="card-img-bottom"><a href="#" class="btn btn-primary">RESERVER</a>
+            <p class="card-title"><h5>Nous sommes ouvert à nouveau, réservez ici votre table</h5>
+            <img src="pexels-cottonbro-4253297.jpg" class="card-img-bottom pb-2"><a href="#" class="btn btn-primary">RESERVER</a>
             </div>
         </div>
-    </div> 
-  </div>   
-</div> 
+      </div>
+      <div class="col-lg-1 col-md-3 col-sm-1"></div>
+     </div>   
+  </div> 
 
 
-<footer >
-    <div class="content-fluid" >
-      <div class="row py-2 bg-dark justify-content-center">
-      <div class="col"><p class="text-center text-white align-self-start d-flex"><a href="#">Confidentialité et cookies</a></p></div>
-      <div class="col"><p class="text-center text-white align-self-center d-flex"><a href="#">Aide</a></p></div>
-      <div class="col"><p class="text-center text-white align-self-center d-flex "><a href="#">Protection européenne des données</a></p></div>
-      <div class="col"><p class="text-center text-white align-self-center d-flex "><a href="#"><a class="nav-link" href="Contact.html"></a>Contact</a></p></div>
-
-     </div>
-  </footer>
+<footer class="bg-light text-center text-lg-start">
+    
+    <div class="container p-4">
+     
+      <div class="row">
+        
+     
+        <div class="col-lg-4 col-md-6 sm-6 mb-md-0 mx-auto">
+          <h5 class="text-uppercase">Suivez-nous sur les réseaux sociaux</h5>
   
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">LinkedIn</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Git Hub</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Instagram</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Facebook</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 sm-6 mb-md-0">
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-dark">Contactez-nous</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Vie privée</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Newsletter</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://MorganeFanon.github.io.com">Morgane Fanon</a>
+    </div>
+    
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
       crossorigin="anonymous"></script>

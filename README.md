@@ -9,9 +9,9 @@ Il porte sur la création du site web d'un restaurant fictif comportant 5 pages:
 
 1. une page gallerie photo  (C:\Users\Morga\ARepositoriesGitHub\Restaurant-css-framework\README\gallerie.png)
 
-1. une page de présentation du restaurant (C:\Users\Morga\ARepositoriesGitHub\Restaurant-css-framework\README\restaurant..png)
+1. une page de présentation du restaurant ![Resaturant Image](Restaurant.png)
 
-1. une page de contact (C:\Users\Morga\ARepositoriesGitHub\Restaurant-css-framework\README\contact.png)
+1. une page de contact 
 
 
 

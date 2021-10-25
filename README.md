@@ -35,7 +35,7 @@ Il porte sur la création du site web d'un restaurant fictif comportant 5 pages:
 - des connaissances des langages html et css
 - des connaissances de Bootstrap
 
-Le site est publié ici: ![page d'accueil du site](acceuil.html)
+Le site est publié ici: ![page d'accueil du site](#Acceuil.html)
 
 
 

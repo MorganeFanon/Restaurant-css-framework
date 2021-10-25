@@ -6,27 +6,27 @@ Il porte sur la création du site web d'un restaurant fictif comportant 5 pages:
 
 1. une page d'accueil  
 
-![Accueil](README-images/Accueil.png)
+![Accueil](ReadMeAccueil.png)
 
 
 1. une page de présentation du menu
 
-![Menu du restaurant](README-images/Menu.png)
+![Menu du restaurant](ReadMeMenu.png)
 
 
 1. une page gallerie photo 
 
- ![gallerie photos](README-images/Gallerie.png)
+ ![gallerie photos](ReadMeGallerie.png)
 
 
 1. une page de présentation du restaurant 
 
-![à propos du restaurant](README-images/Restaurant.png)
+![à propos du restaurant](ReadMeRestaurant.png)
 
 
 1. une page de contact 
 
-![formulaire de contact](README-images/Contact.png)
+![formulaire de contact](ReadMeContact.png)
 
 
 
@@ -39,7 +39,7 @@ Le site est publié à l'adresse : https://morganefanon.github.io/Restaurant-css
 
 Ou
 
-![page d'accueil du site](acceuil.html)
+![page d'accueil du site](https://morganefanon.github.io/Restaurant-css-framework/acceuil.html)
 
 Toutes les photos présentes dans ce projets viennent de www.pexels.com
 

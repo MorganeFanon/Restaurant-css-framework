@@ -37,6 +37,10 @@ Il porte sur la création du site web d'un restaurant fictif comportant 5 pages:
 
 Le site est publié à l'adresse : https://morganefanon.github.io/Restaurant-css-framework/
 
+Ou
+
+![page d'accueil du site](acceuil.html)
+
 Toutes les photos présentes dans ce projets viennent de www.pexels.com
 
 

@@ -35,11 +35,9 @@ Il porte sur la création du site web d'un restaurant fictif comportant 5 pages:
 - des connaissances des langages html et css
 - des connaissances de Bootstrap
 
-Le site est publié à l'adresse : https://morganefanon.github.io/Restaurant-css-framework/
+Le site est publié ici: ![page d'accueil du site](acceuil.html)
 
-Ou
 
-![page d'accueil du site](https://morganefanon.github.io/Restaurant-css-framework/acceuil.html)
 
 Toutes les photos présentes dans ce projets viennent de www.pexels.com
 

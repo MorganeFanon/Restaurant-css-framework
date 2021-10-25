@@ -36,7 +36,7 @@ Il porte sur la création du site web d'un restaurant fictif comportant 5 pages:
 - des connaissances de Bootstrap
 
 Le site est publié ici: ![page d'accueil du site](#Acceuil.html)
-
+<a class="nav-link" href="Menu.html">Menu</a>
 
 
 Toutes les photos présentes dans ce projets viennent de www.pexels.com

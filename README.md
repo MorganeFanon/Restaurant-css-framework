@@ -36,7 +36,7 @@ Il porte sur la création du site web d'un restaurant fictif comportant au moins
 - CSS
 - Bootstrap
 
-Le site est publié<a class="nav-link" href="Accueil.html">ici</a>
+Le site est publié<a class="nav-link" href="Accueil.html"> ici</a>
 
 
 Toutes les photos présentes dans ce projets viennent de <a class="nav-link" href="www.pexels.html">www.pexels.com</a>

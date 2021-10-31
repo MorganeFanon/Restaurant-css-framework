@@ -2,51 +2,43 @@
 <html lang="en">
 
 <head>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-        <link rel="stylesheet" href="Menu.css">  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Menu.css">  
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md  bg-light navbar-light">
-        <a class="navbar-brand Sixties" href="Restaurant.html">The Sixties</a>
-
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand navbar-left mx-auto" href="#"><img src="Cadillac-PNG-File.png" height="80"></a>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item active ">
-                    <a class="nav-link" href="Accueil.html">Accueil</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="Menu.html">Menu</a>
-                </li> 
-
-                <li class="nav-item">
-                    <a class="nav-link" href="Gallerie.html">Gallerie</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="Restaurant.html">Restaurant</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Contact</a>
-                </li>
-               
-            </ul>
-        </div>
-    </nav>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark px-5" href="Restaurant.html"><img src="Cadillac-PNG-File.png" alt="...." height= 80 ><div id="sixties">The Sixties</div></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Accueil.html">Home</a>
+          </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Menu.html">Menu</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link" href="Gallerie.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Restaurant.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+      </div>
+  </nav>
+  </div>
 
     <div class="container-fluid">
         <div class="row justify-content-center pt-4 pb-4">
@@ -60,18 +52,18 @@
 <div class="container-fluid">
      <div class="row justify-content-between">
             <div class="col-lg-3 col-md-5 col-sm-10 mx-auto pt-4">
-                <h1>Boissons</h1>
+                <h1>Drinks</h1>
                 <ul class="list-group ">
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Bru pétillante<span
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Bru sparkling water<span
                             class="badge badge-secondary badge badge-pill">1,50 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center"> Bru plate<span
+                    <li class="list-group-item d-flex justify-content-between align-items-center"> Bru still water<span
                             class="badge badge-secondary badge badge-pill">1,00 €</span></li>
 
                     <li class="list-group-item d-flex justify-content-between align-items-center">Coca-cola<span
                             class="badge badge-secondary badge badge-pill">4,50 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center"> Coca-cola Zéro<span
+                    <li class="list-group-item d-flex justify-content-between align-items-center"> Coca-cola Zero<span
                             class="badge badge-secondary badge badge-pill">4,50 €</span></li>
 
                     <li class="list-group-item d-flex justify-content-between align-items-center"> Schweppes Tonic<span
@@ -86,13 +78,13 @@
                     <li class="list-group-item d-flex justify-content-between align-items-center">Ice Tea<span
                             class="badge badge-secondary badge badge-pill">4,50 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Looza Orange ouTomate<span 
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Looza Orange or Tomato<span 
                             class="badge badge-secondary badge badge-pill">4,50 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Jus de fruits frais<span 
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Fresh fruit juice<span 
                            class="badge badge-secondary badge badge-pill">7,50 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Cocktail sans Alcool<span 
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Non-alcoholic cocktail<span 
                            class="badge badge-secondary badge badge-pill">14,00 €</span></li>
 
                     <li class="list-group-item d-flex justify-content-between align-items-center">Fever Tree<span
@@ -102,23 +94,23 @@
             <div class="col-lg-3 col-md-5 col-sm-12 mx-auto pt-4">
                 <h1>Apéritifs</h1>
                 <ul class="list-group">
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Apéritif Maison<span
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Home-made aperitif<span
                             class="badge badge-secondary badge badge-pill">15,00 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center"> Coupe de Champagne
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Glass of prosecco
                         Gauthier Christophe Brut<span class="badge badge-secondary badge badge-pill">13,50 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Coupe de Champagne
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Glass of champagne
                         Gauthier Christophe Brut Rosé<span class="badge badge-secondary badge badge-pill">16,50 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Martini Blanc ou
-                        Rouge<span class="badge badge-secondary badge badge-pill">10,00 €</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">White or red Martini
+                        <span class="badge badge-secondary badge badge-pill">10,00 €</span></li>
 
                     <li class="list-group-item d-flex justify-content-between align-items-center">Campari<span
                             class="badge badge-secondary badge badge-pill">10,00 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Campari et
-                        accompagnement<span class="badge badge-secondary badge badge-pill">14,00 €</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Campari and accompaniment
+                        <span class="badge badge-secondary badge badge-pill">14,00 €</span></li>
 
                     <li class="list-group-item d-flex justify-content-between align-items-center">Gancia<span
                             class="badge badge-secondary badge badge-pill">10,00 €</span></li>
@@ -126,13 +118,13 @@
                     <li class="list-group-item d-flex justify-content-between align-items-center">Picon<span
                             class="badge badge-secondary badge badge-pill">10,00 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Picon et
-                        accompagnement<span class="badge badge-secondary badge badge-pill">14,00 €</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Picon and accompaniment
+                        <span class="badge badge-secondary badge badge-pill">14,00 €</span></li>
 
                     <li class="list-group-item d-flex justify-content-between align-items-center">Apérol Spritz<span
                             class="badge badge-secondary badge badge-pill">15,00 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Kir Vin Blanc<span
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Kir white wine<span
                             class="badge badge-secondary badge badge-pill">12,00 €</span></li>
 
                     <li class="list-group-item d-flex justify-content-between align-items-center">Kir Royal<span
@@ -144,18 +136,18 @@
                     <li class="list-group-item d-flex justify-content-between align-items-center">Pineau des
                         charentes<span class="badge badge-secondary badge badge-pill">10,00 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Bacardi Blanc ou
-                        Brun<span class="badge badge-secondary badge badge-pill">10,00 €</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Bacardi white or
+                        brown<span class="badge badge-secondary badge badge-pill">10,00 €</span></li>
 
-                    <li class="list-group-item d-flex justify-content-between align-items-center">Bacardi Blanc ou Brun
-                        et accompagnement<span class="badge badge-secondary badge badge-pill">14,00 €</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Bacardi whire or brown and accompaniment
+                        <span class="badge badge-secondary badge badge-pill">14,00 €</span></li>
 
                     <li class="list-group-item d-flex justify-content-between align-items-center">Pisang<span
                             class="badge badge-secondary badge badge-pill">8,00 €</span></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-5 col-sm-10 mx-auto pt-4">
-                <h1>Bières</h1>
+                <h1>Beers</h1>
 
                 <ul class="list-group">
                     <li class="list-group-item d-flex justify-content-between align-items-center">Jupiler<span
@@ -183,49 +175,40 @@
         <div class="row">
             <div class="col-lg-10 col-md-1O col-sm-10 mx-auto">
                 <h1>Burgers</h1>
-                <li class="list-group-item d-flex justify-content-between align-items-center"><b>Le John Kennedy</b>
-                    Pain brioché - burger pur bœuf - cheddar - bacon - ketchup & moutarde - tomate - cornichons.<span
+                <li class="list-group-item d-flex justify-content-between align-items-center"><b>The JFK</b>
+                    Brioche bun - pure beef burger - cheddar - bacon - ketchup & mustard - tomato - pickles.<span
                         class="badge badge-secondary badge badge-pill">9,00 €</span></li>
 
 
-                <li class="list-group-item d-flex justify-content-between align-items-center"><b>Le Grace Kelly</b> Pain
-                    brioché - burger pur bœuf X 2 - cheddar X 2 - bacon X 2 - sauce maison - oignons rouges - cornichons
+                <li class="list-group-item d-flex justify-content-between align-items-center"><b>The Grace Kelly</b> Bread
+                    brioche - pure beef burger X 2 - cheddar X 2 - bacon X 2 - homemade sauce - red onions - pickles
                     - iceberg.<span class="badge badge-secondary badge badge-pill">10,00 €</span></li>
 
 
-                <li class="list-group-item d-flex justify-content-between align-items-center"><b>Le Frank Sinatra</b>
-                    Pain brioché - burger pur bœuf - fromage de Herve - bacon - Sauce à la Val-Dieu - oignons rouges -
-                    roquette.<span class="badge badge-secondary badge badge-pill">12,00 €</span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center"><b>The Frank Sinatra</b>
+                    Brioche bun - pure beef burger - Herve cheese - bacon - Val-Dieu sauce - red onions - arugula.<span class="badge badge-secondary badge badge-pill">12,00 €</span></li>
 
 
-                <li class="list-group-item d-flex justify-content-between align-items-center"><b>Le Steve
-                        MacQueen</b>Pain brioché - poulet pané - cheddar - bacon - sauce maison - cornichons - oignons
-                    rouges - iceberg.<span class="badge badge-secondary badge badge-pill">14,00 €</span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center"><b>The Steve
+                        MacQueen</b>Brioche bun - breaded chicken - cheddar - bacon - homemade sauce - pickles - red onions - iceberg.
+                        <span class="badge badge-secondary badge badge-pill">14,00 €</span></li>
 
 
-                <li class="list-group-item d-flex justify-content-between align-items-center"><b>Le John Lemon</b> Pain
-                    brioché - burger pur bœuf - cheddar - bacon - sauce au poivre - champignons - oignons grillés -
-                    iceberg.<span class="badge badge-secondary badge badge-pill">13,00 €</span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center"><b>The John Lenon</b>Brioche bun - pure beef burger - cheddar - bacon - pepper sauce - mushrooms - grilled onions - iceberg salad.<span class="badge badge-secondary badge badge-pill">13,00 €</span></li>
 
 
-                <li class="list-group-item d-flex justify-content-between align-items-center"><b>Le Beach Boys</b>Pain
-                    brioché - poulet pané - mozzarella - jambon de Parme - pesto - oignons rouges - aubergine grillée -
-                    roquette.<span class="badge badge-secondary badge badge-pill">11,00 €</span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center"><b>Thee Beach Boys</b>Brioche bread - breaded chicken - mozzarella - Parma ham - pesto - red onions - grilled eggplant - arugula.<span class="badge badge-secondary badge badge-pill">11,00 €</span></li>
 
 
-                <li class="list-group-item d-flex justify-content-between align-items-center"><b>Le Led Zepplin</b>Pain
-                    brioché - Cabillaud pané- sauce Tartare - oignons rouges - tomates - cornichons - roquette.<span
+                <li class="list-group-item d-flex justify-content-between align-items-center"><b>The Led Zepplin</b>Brioche bread - breaded cod - tartar sauce - red onions - tomatoes - pickles - arugula.<span
                         class="badge badge-secondary badge badge-pill">11,00 €</span></li>
 
 
-                <li class="list-group-item d-flex justify-content-between align-items-center"><b>Le Beatles </b>Pain
-                    brioché - burger pur bœuf - croquette de fromage - sauce au sirop d'Aubel - oignons rouges -
-                    roquette.<span class="badge badge-secondary badge badge-pill">13,00 €</span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center"><b>The Beatles </b>Brioche bun - pure beef burger - cheese croquette - Aubel syrup sauce - red onions - arugula.<span class="badge badge-secondary badge badge-pill">13,00 €</span></li>
 
 
-                <li class="list-group-item d-flex justify-content-between align-items-center"><b>Le Richard Nixon
-                    </b>Pain brioché - burger végétarien - sauce BurGor - oignons rouges - aubergine
-                    grillée - iceberg.<span class="badge badge-secondary badge badge-pill">13,00 €</span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center"><b>The Richard Nixon
+                    </b>Brioche bun - veggie burger - BurGor sauce - red onions - eggplant grilled eggplant - iceberg.<span class="badge badge-secondary badge badge-pill">13,00 €</span></li>
             </div>
         </div>
     </div> 
@@ -233,23 +216,22 @@
        <div class="row mx-auto justify-content-center">
            <div class="col-lg-5 col-md-5 col-sm-10">
             <div class="jumbotron2">
-                Tous nos hamburgers sont accompagnés de frites.</div>
+                All our burgers come with fries.</div>
            </div>
         <div class="col-lg-5 col-md-5 col-sm-10 pt-4">
             <div class="jumbotron2">
-                <b>Sauces pour les frites:</b>
-                 - Truffe
-                 - Poivre
+                <b>Sauces for fries:</b>
+                 - Truffel
+                 - Pepper
                  - Val-Dieu
                  - Mayonnaise
                  - Aubel
                  - Pesto
-                 - BurGor
                  - Guacamole
                  - Cheddar
                  - Ketchup
                  - Porto
-                 - Mangue
+                 - Mango
              </div>
         </div>
     </div>     
@@ -257,8 +239,8 @@
 <div class="container-fluid "> 
     <div class="row justify-content-center mx-auto pt-4 pb-4">
         <div class="jumbotron2">
-        Des allergies ?
-        Signalez-le et nous vous renseignerons avec plaisir.
+            Any allergies?
+            Let us know and we will be happy to help you.
         </div>
     </div>
 </div>    
@@ -277,7 +259,7 @@
                 <li class="list-group-item d-flex justify-content-between align-items-center">Mocha Choco<span
                 class="badge badge-secondary badge badge-pill">7,00 €</span></li>
 
-        <li class="list-group-item d-flex justify-content-between align-items-center">Crème d'Oréo<span 
+        <li class="list-group-item d-flex justify-content-between align-items-center">Oréo cream<span 
             class="badge badge-secondary badge badge-pill">7,00 €</span></li>
 
         <li class="list-group-item d-flex justify-content-between align-items-center">Baba au rhum<span
@@ -291,22 +273,22 @@
    <div class="col-lg-5 col-md-5 col-sm-10 pt-4">
       <h1>MilkShake</h1>
     <ul class="list-group">
-         <li class="list-group-item d-flex justify-content-between align-items-center">Vanille<span
+         <li class="list-group-item d-flex justify-content-between align-items-center">Vanilla<span
                 class="badge badge-secondary badge badge-pill">5,00 €</span></li>
 
-         <li class="list-group-item d-flex justify-content-between align-items-center">chocolat<span
+         <li class="list-group-item d-flex justify-content-between align-items-center">chocolate<span
                 class="badge badge-secondary badge badge-pill">6,00 €</span></li>
 
-         <li class="list-group-item d-flex justify-content-between align-items-center">Macaron au caramel<span
+         <li class="list-group-item d-flex justify-content-between align-items-center">Caramel macaroon<span
                 class="badge badge-secondary badge badge-pill">7,00 €</span></li>
 
-         <li class="list-group-item d-flex justify-content-between align-items-center">Pistache<span 
+         <li class="list-group-item d-flex justify-content-between align-items-center">Pistachio<span 
             class="badge badge-secondary badge badge-pill">7,00 €</span></li>
 
          <li class="list-group-item d-flex justify-content-between align-items-center">Banana Split<span
                 class="badge badge-secondary badge badge-pill">7,00 €</span></li>
 
-         <li class="list-group-item d-flex justify-content-between align-items-center">Vanille & fraise<span
+         <li class="list-group-item d-flex justify-content-between align-items-center">Vanille & strawberry<span
                 class="badge badge-secondary badge badge-pill">7,00 € </span></li>
     </ul> 
     </div>
@@ -321,7 +303,7 @@
         
      
         <div class="col-lg-4 col-md-6 sm-6 mb-md-0 mx-auto">
-          <h5 class="text-uppercase">Suivez-nous sur les réseaux sociaux</h5>
+          <h5 class="text-uppercase">Follow us on social networks</h5>
   
           <ul class="list-unstyled mb-0">
             <li>
@@ -343,10 +325,11 @@
   
           <ul class="list-unstyled">
             <li>
-              <a href="#!" class="text-dark">Contactez-nous</a>
+              <a href="#!" class="text-dark">Contact-us</a>
             </li>
             <li>
-              <a href="#!" class="text-dark">Vie privée</a>
+              <a href="#!" class="text-dark">Privacy Policy
+              </a>
             </li>
             <li>
               <a href="#!" class="text-dark">Newsletter</a>
@@ -358,12 +341,11 @@
     </div>
     
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
+      © 2021 Copyright:
       <a class="text-dark" href="https://MorganeFanon.github.io.com">Morgane Fanon</a>
     </div>
     
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
       crossorigin="anonymous"></script>
@@ -371,4 +353,6 @@
       integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
       crossorigin="anonymous"></script>
   
-</html>  
+</body>
+
+</html>

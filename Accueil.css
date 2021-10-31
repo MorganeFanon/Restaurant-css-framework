@@ -1,22 +1,28 @@
 
-.container-fluid {
+body {
     background-image: url("diner.jpg");
-    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover;
     color:rgb(212, 170, 191);
+    background-size: cover;
 }
 
 .row{
     height: 30%;
 }
 
+li {
+    font-family: Mainstay;
+    font-size: 2vw;
+    text-align: center;
+}
 
 .jumbotron-fluid {
+    width: 70%;
+    padding: 4%;
     border-radius: 30px;
     color: white;
     text-align: center;
-    opacity: 0.75;
+    opacity: 0.55;
     background: rgb(57,29,75);
     background: linear-gradient(90deg, rgba(57,29,75,1) 37%, rgba(179,72,72,1) 67%, rgba(252,176,69,1) 100%);
 }
@@ -30,6 +36,7 @@
 h1 {
     font-family: 'Courier New', Courier, monospace;
     color: white;  
+    
 }
 
 img {
@@ -40,12 +47,7 @@ img {
 }
 
 .card2 {
-    /*margin-top: 20%;
-    margin-left:15%;;
-    margin-right: 30px;
-    margin-bottom: 30%;*/
     opacity: 0.9;
-    /*width:45%;*/
 }
 
 p {
@@ -58,7 +60,12 @@ p {
     src: url("Mainstay-4BKa6.ttf");
  }
 
-  .Sixties {
+  #sixties {
       font-family: Mainstay;
+      font-size: 4vw;
   }
 
+  h3 {
+      font-family: "mainstay";
+      
+  }

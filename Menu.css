@@ -8,20 +8,16 @@
     src: url("Mainstay-4BKa6.ttf");
  }
 
-.Sixties {
-      font-size: 44px;
+#sixties {
       font-family: Mainstay;
+      font-size: 4vw;
   }
 
 .jumbotron {
         border-radius: 30px;
-        /*margin-left: 10%;*/
         color: white;
-        /*margin-top: 30px;
-        padding-top: 25px;*/
         width: 50%;
         text-align: center;
-        /*height: 130px;*/
         border: dotted;
         opacity: 0.75;
         background: rgb(57,29,75);
@@ -50,6 +46,11 @@ h1 {
     color: plum;  
 }
 
+li {
+    font-family: Mainstay;
+    font-size: 2vw;
+    text-align: center;
+}
 h2 {
     font-family: Yesteryear;
     color: plum;
@@ -67,10 +68,7 @@ h2 {
     }
 
    
-  .Sixties {
-    font-size: 44px;
-    font-family: "Mainstay";
-}
+  
 
 .jumbotron1 {
     background-color: blanchedalmond;
@@ -81,10 +79,15 @@ h2 {
 
 .jumbotron2 {
     background-color: blanchedalmond;
-    width: 70%;
+    width: auto;
     border-radius: 23px;
     text-align: center;
     opacity: 0.7;
+}
+
+#sixties {
+    font-family: Mainstay;
+    font-size: 4vw;
 }
 
 p {

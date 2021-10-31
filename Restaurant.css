@@ -1,12 +1,11 @@
 img {
     border-radius: 23px;
 }
-.container-fluid {
+.container-fluid1 {
     background-image: url("diner.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
-    color:rgb(212, 170, 191);
 }
 .img-rounded {
     width: 100%;
@@ -18,11 +17,20 @@ img {
     color: rgb(10, 10, 10); 
 }
 
+li {
+    font-family: Mainstay;
+    font-size: 2vw;
+    text-align: center;
+}
 td {
     margin-left: 44px;
     padding: 20px;
 }
 
+#sixties {
+    font-family: Mainstay;
+    font-size: 4vw;
+}
 
 .card {
     border-radius: 23px;
@@ -38,10 +46,11 @@ p {
     src: url("Mainstay-4BKa6.ttf");
  }
 
-.Sixties {
-      font-size: 44px;
-      font-family: Mainstay;
-  }
 
-
+ .jumbotron2 {
+    background-color: rgb(189, 173, 105);
+    opacity: 0.8;
+    border-radius: 23px;
+    color: rgb(10, 10, 10); 
+}
 

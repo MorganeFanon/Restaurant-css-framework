@@ -1,45 +1,45 @@
-# Premier projet étudiant chez BeCode *Restaurant-css-framework*
-Ce projet a été réalisé par moi-même dans le cadre de ma formation de Web développement chez BeCode. 
-Nous disposions d'un délais de 4 jours. 
+# First student project at BeCode *Restaurant-css-framework*
+This project was done by myself as part of my web development training at BeCode. 
+We had a 4 days deadline. 
 
-Il porte sur la création du site web d'un restaurant fictif comportant au moins les 5 pages suivantes: 
+It concerns the creation of a fictitious restaurant's website with at least the following 5 pages: 
 
-## une page d'accueil  
+## a homepage  
 
 ![Accueil](ReadMeAccueil.png)
 
 
-##  une page de présentation du menu
+##  a page presenting the menu
 
 ![Menu du restaurant](ReadMeMenu.png)
 
 
-## une page gallerie photo 
+## a photo gallery page 
 
  ![gallerie photos](ReadMeGallerie.png)
 
 
-## une page de présentation du restaurant 
+## a page presenting the restaurant 
 
 ![à propos du restaurant](ReadMeRestaurant.png)
 
 
-## une page de contact 
+## a contact page 
 
 ![formulaire de contact](ReadMeContact.png)
 
 
 
 
-**Les prérequis pour la réalisation de ce projet étaient:**
+**The prerequisites for the realisation of this project were:**
 - HTML
 - CSS
 - Bootstrap
 
-Le site est publié<a class="nav-link" href="https://morganefanon.github.io/Restaurant-css-framework/Accueil.html"> ici</a>
+The site is published<a class="nav-link" href="https://morganefanon.github.io/Restaurant-css-framework/Accueil.html"> here</a>
 
 
-Toutes les photos présentes dans ce projets viennent de <a class="nav-link" href="www.pexels.html">www.pexels.com</a>
+All the photos in this project are from <a class="nav-link" href="www.pexels.html">www.pexels.com</a>
 
 
 

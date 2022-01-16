@@ -4,27 +4,27 @@ We had a 4 days deadline.
 
 It concerns the creation of a fictitious restaurant's website with at least the following 5 pages: 
 
-## a homepage  
+## A homepage  
 
 ![Accueil](ReadMeAccueil.png)
 
 
-##  a page presenting the menu
+##  A page presenting the menu
 
 ![Menu du restaurant](ReadMeMenu.png)
 
 
-## a photo gallery page 
+## A photo gallery page 
 
  ![gallerie photos](ReadMeGallerie.png)
 
 
-## a page presenting the restaurant 
+## A page presenting the restaurant 
 
 ![à propos du restaurant](ReadMeRestaurant.png)
 
 
-## a contact page 
+## A contact page 
 
 ![formulaire de contact](ReadMeContact.png)
 

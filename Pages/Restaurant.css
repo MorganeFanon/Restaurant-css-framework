@@ -2,7 +2,7 @@ img {
     border-radius: 23px;
 }
 .container-fluid1 {
-    background-image: url("diner.jpg");
+    background-image: url("../Pictures/diner.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@ img {
 }
 
 li {
-    font-family: Mainstay;
+    font-family: "Mainstay";
     font-size: 2vw;
     text-align: center;
 }
@@ -30,7 +30,7 @@ td {
 #sixties {
     
     color: aliceblue;
-    font-family: Mainstay;
+    font-family: "Mainstay";
     font-size: 4vw;
 }
 
@@ -40,12 +40,12 @@ td {
 
 
 p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
 }
 
 @font-face {
     font-family: "Mainstay";
-    src: url("Mainstay-4BKa6.ttf");
+    src: url("../Fonts/Mainstay-4BKa6.ttf");
  }
 
 

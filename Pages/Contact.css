@@ -1,7 +1,7 @@
 
 .container-fluid {
    
-    background-image: url("diner.jpg");
+    background-image: url("../Pictures/diner.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@ li {
 
 @font-face {
     font-family: "Mainstay";
-    src: url("Mainstay-4BKa6.ttf");
+    src: url("../Fonts/Mainstay-4BKa6.ttf");
  }
 
  #sixties {

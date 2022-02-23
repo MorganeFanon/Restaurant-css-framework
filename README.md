@@ -6,28 +6,24 @@ It concerns the creation of a fictitious restaurant's website with at least the 
 
 ## A homepage  
 
-![Accueil](ReadMeAccueil.png)
-
 
 ##  A page presenting the menu
 
-![Menu du restaurant](ReadMeMenu.png)
+![Menu du restaurant](./Pictures/Capture d’écran (142).png)
 
 
 ## A photo gallery page 
 
- ![gallerie photos](ReadMeGallerie.png)
+ ![gallerie photos](./Pictures/Capture d’écran (143).png)
 
 
 ## A page presenting the restaurant 
 
-![à propos du restaurant](ReadMeRestaurant.png)
 
 
 ## A contact page 
 
-![formulaire de contact](ReadMeContact.png)
-
+![formulaire de contact](./Pictures/Capture d’écran (144).png)
 
 
 
